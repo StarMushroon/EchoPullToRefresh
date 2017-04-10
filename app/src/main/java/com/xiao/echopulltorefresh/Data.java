@@ -7,6 +7,9 @@ import java.util.List;
  */
 
 public class Data {
+
+
+
     private List<段子Bean> 段子;
 
     public List<段子Bean> get段子() {

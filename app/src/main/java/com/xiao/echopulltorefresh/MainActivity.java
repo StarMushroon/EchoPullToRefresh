@@ -26,6 +26,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity implements PullToRefreshBase.OnRefreshListener {
 
+    private String str = "this is for test";
+
     private static String TAG = MainActivity.class.getSimpleName();
 
     private PullToRefreshListView mListView;
